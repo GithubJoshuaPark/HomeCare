@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>방문요양센터 창업 체크리스트 - HomeCare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-flex">
+                <div class="logo-area">
+                    <h1>방문요양센터 창업 준비</h1>
+                    <p class="subtitle">시니어 개발자를 위한 경력 전환 로드맵</p>
+                </div>
+                <button id="mobile-menu-button" class="mobile-menu-btn" aria-label="메뉴 열기">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html#intro" class="nav-link">소개</a></li>
+                    <li><a href="index.html#requirements" class="nav-link">설립 요건</a></li>
+                    <li><a href="index.html#licensing" class="nav-link">인허가 절차</a></li>
+                    <li><a href="index.html#facility" class="nav-link">시설 및 운영</a></li>
+                    <li><a href="index.html#financial" class="nav-link">재정 분석</a></li>
+                    <li class="mobile-only"><a href="index.html#it-strategy" class="nav-link">IT 활용 전략</a></li>
+                    <li class="mobile-only"><a href="index.html#roadmap" class="nav-link">경력 전환 로드맵</a></li>
+                    <li class="mobile-only"><a href="index.html#checklist" class="nav-link">체크리스트</a></li>
+                </ul>
+                <div class="theme-toggle-container">
+                    <button id="theme-toggle" class="theme-toggle-btn" aria-label="다크 모드 전환">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h1>방문요양센터 창업 체크리스트</h1>
+                <p class="intro-text">방문요양센터를 성공적으로 창업하기 위한 단계별 체크리스트입니다. 각 항목을 순차적으로 확인하고 준비하시면 효율적인 창업 과정을 진행할 수 있습니다.</p>
+
+                <div class="checklist-container">
+                    <!-- 1단계: 사전 준비 -->
+                    <div class="checklist-section">
+                        <h2><i class="fas fa-clipboard-check"></i> 1단계: 사전 준비</h2>
+                        <div class="content">
+                            <div class="card">
+                                <h3>시장 조사</h3>
+                                <ul class="checklist">
+                                    <li>
+                                        <input type="checkbox" id="market1">
+                                        <label for="market1">지역 내 노인 인구 현황 파악</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="market2">
+                                        <label for="market2">경쟁 방문요양센터 현황 조사</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="market3">
+                                        <label for="market3">지역 내 요양보호사 인력 현황 파악</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="market4">
+                                        <label for="market4">노인장기요양보험 제도 이해</label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card">
+                                <h3>자격 취득</h3>
+                                <ul class="checklist">
+                                    <li>
+                                        <input type="checkbox" id="cert1">
+                                        <label for="cert1">요양보호사 자격증 취득</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="cert2">
+                                        <label for="cert2">사회복지사 2급 자격증 취득</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="cert3">
+                                        <label for="cert3">방문요양센터 시설장 교육 이수</label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card">
+                                <h3>사업 계획</h3>
+                                <ul class="checklist">
+                                    <li>
+                                        <input type="checkbox" id="plan1">
+                                        <label for="plan1">사업계획서 작성</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="plan2">
+                                        <label for="plan2">초기 투자 비용 산정</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="plan3">
+                                        <label for="plan3">수익성 분석</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="plan4">
+                                        <label for="plan4">자금 조달 계획 수립</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2단계: 시설 준비 -->
+                    <div class="checklist-section">
+                        <h2><i class="fas fa-building"></i> 2단계: 시설 준비</h2>
+                        <div class="content">
+                            <div class="card">
+                                <h3>위치 선정</h3>
+                                <ul class="checklist">
+                                    <li>
+                                        <input type="checkbox" id="location1">
+                                        <label for="location1">노인 인구 밀집 지역 조사</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="location2">
+                                        <label for="location2">교통 접근성 확인</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="location3">
+                                        <label for="location3">임대료 및 보증금 비교</label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card">
+                                <h3>사무실 구성</h3>
+                                <ul class="checklist">
+                                    <li>
+                                        <input type="checkbox" id="office1">
+                                        <label for="office1">최소 16.5㎡(5평) 이상 사무실 확보</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="office2">
+                                        <label for="office2">사무용 가구 및 집기 구매</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="office3">
+                                        <label for="office3">컴퓨터, 전화, 복합기 등 설치</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="office4">
+                                        <label for="office4">인터넷 및 통신 환경 구축</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3단계: 인허가 절차 -->
+                    <div class="checklist-section">
+                        <h2><i class="fas fa-file-contract"></i> 3단계: 인허가 절차</h2>
+                        <div class="content">
+                            <div class="card">
+                                <h3>사업자 등록</h3>
+                                <ul class="checklist">
+                                    <li>
+                                        <input type="checkbox" id="business1">
+                                        <label for="business1">사업자등록증 발급</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="business2">
+                                        <label for="business2">법인 설립 (선택사항)</label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card">
+                                <h3>노인복지시설 설치신고</h3>
+                                <ul class="checklist">
+                                    <li>
+                                        <input type="checkbox" id="welfare1">
+                                        <label for="welfare1">설치신고서 작성</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="welfare2">
+                                        <label for="welfare2">시설 평면도 준비</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="welfare3">
+                                        <label for="welfare3">사업계획서 및 운영규정 준비</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="welfare4">
+                                        <label for="welfare4">시설장 및 종사자 자격증 사본 준비</label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card">
+                                <h3>장기요양기관 지정</h3>
+                                <ul class="checklist">
+                                    <li>
+                                        <input type="checkbox" id="longterm1">
+                                        <label for="longterm1">장기요양기관 지정신청서 작성</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="longterm2">
+                                        <label for="longterm2">사업자등록증 사본 준비</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="longterm3">
+                                        <label for="longterm3">노인복지시설 설치신고증 사본 준비</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="longterm4">
+                                        <label for="longterm4">인력 배치 현황 제출</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4단계: 인력 확보 -->
+                    <div class="checklist-section">
+                        <h2><i class="fas fa-users"></i> 4단계: 인력 확보</h2>
+                        <div class="content">
+                            <div class="card">
+                                <h3>필수 인력</h3>
+                                <ul class="checklist">
+                                    <li>
+                                        <input type="checkbox" id="staff1">
+                                        <label for="staff1">시설장 채용 (또는 직접 수행)</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="staff2">
+                                        <label for="staff2">사회복지사 채용</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="staff3">
+                                        <label for="staff3">요양보호사 채용</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="staff4">
+                                        <label for="staff4">사무원 채용 (선택사항)</label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card">
+                                <h3>인력 교육</h3>
+                                <ul class="checklist">
+                                    <li>
+                                        <input type="checkbox" id="training1">
+                                        <label for="training1">요양보호사 직무 교육</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="training2">
+                                        <label for="training2">서비스 품질 교육</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="training3">
+                                        <label for="training3">행정 시스템 사용 교육</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5단계: IT 시스템 구축 -->
+                    <div class="checklist-section">
+                        <h2><i class="fas fa-laptop-code"></i> 5단계: IT 시스템 구축</h2>
+                        <div class="content">
+                            <div class="card">
+                                <h3>기본 시스템</h3>
+                                <ul class="checklist">
+                                    <li>
+                                        <input type="checkbox" id="it1">
+                                        <label for="it1">요양급여 청구 시스템 구축</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="it2">
+                                        <label for="it2">이용자 관리 시스템 구축</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="it3">
+                                        <label for="it3">인력 관리 시스템 구축</label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card">
+                                <h3>차별화 시스템</h3>
+                                <ul class="checklist">
+                                    <li>
+                                        <input type="checkbox" id="it4">
+                                        <label for="it4">모바일 앱 개발 (선택사항)</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="it5">
+                                        <label for="it5">IoT 기반 건강 모니터링 시스템 (선택사항)</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="it6">
+                                        <label for="it6">데이터 분석 시스템 구축 (선택사항)</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 6단계: 마케팅 및 홍보 -->
+                    <div class="checklist-section">
+                        <h2><i class="fas fa-bullhorn"></i> 6단계: 마케팅 및 홍보</h2>
+                        <div class="content">
+                            <div class="card">
+                                <h3>온라인 마케팅</h3>
+                                <ul class="checklist">
+                                    <li>
+                                        <input type="checkbox" id="marketing1">
+                                        <label for="marketing1">웹사이트 구축</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="marketing2">
+                                        <label for="marketing2">SNS 채널 개설</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="marketing3">
+                                        <label for="marketing3">지역 포털 사이트 등록</label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card">
+                                <h3>오프라인 마케팅</h3>
+                                <ul class="checklist">
+                                    <li>
+                                        <input type="checkbox" id="marketing4">
+                                        <label for="marketing4">지역 주민센터 및 복지관 홍보</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="marketing5">
+                                        <label for="marketing5">전단지 및 브로셔 제작</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="marketing6">
+                                        <label for="marketing6">지역 의료기관 네트워크 구축</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="download-section">
+                    <a href="#" class="btn" id="excelBtn"><i class="fas fa-file-excel"></i> 엑셀 다운로드</a>
+                    <a href="#" class="btn" id="pdfBtn"><i class="fas fa-file-pdf"></i> PDF 다운로드</a>
+                    <a href="#" class="btn" id="resetBtn"><i class="fas fa-redo"></i> 초기화</a>
+                </div>
+
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+                <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    // Save checkbox states to localStorage
+                    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+
+                    // Load saved checkbox states
+                    checkboxes.forEach(checkbox => {
+                        const savedState = localStorage.getItem(`checklist-${checkbox.id}`);
+                        if (savedState === 'true') {
+                            checkbox.checked = true;
+                        }
+
+                        // Save state on change
+                        checkbox.addEventListener('change', function() {
+                            localStorage.setItem(`checklist-${this.id}`, this.checked);
+                        });
+                    });
+
+                    // Download Excel functionality
+                    const excelBtn = document.getElementById('excelBtn');
+                    excelBtn.addEventListener('click', function(e) {
+                        e.preventDefault();
+
+                        // Create Excel workbook
+                        const wb = XLSX.utils.book_new();
+                        wb.Props = {
+                            Title: '방문요양센터 창업 체크리스트',
+                            Subject: '방문요양센터 창업 준비 체크리스트',
+                            Author: '방문요양센터 창업 가이드',
+                            CreatedDate: new Date()
+                        };
+
+                        // Get all checklist sections
+                        const sections = document.querySelectorAll('.checklist-section');
+
+                        // Process each section into a separate worksheet
+                        sections.forEach((section, sectionIndex) => {
+                            const sectionTitle = section.querySelector('h2').textContent.replace(/[^\w\s\uAC00-\uD7A3]/g, '').trim();
+                            const cards = section.querySelectorAll('.card');
+
+                            // Create data array for this section
+                            const data = [];
+
+                            // Add header row
+                            data.push(['항목', '상태', '비고']);
+
+                            // Process each card in this section
+                            cards.forEach(card => {
+                                const cardTitle = card.querySelector('h3').textContent;
+
+                                // Add card title as a category row
+                                data.push([cardTitle, '', '']);
+
+                                // Process each checklist item
+                                const items = card.querySelectorAll('.checklist li');
+                                items.forEach(item => {
+                                    const checkbox = item.querySelector('input[type="checkbox"]');
+                                    const label = item.querySelector('label').textContent;
+                                    const status = checkbox.checked ? '완료' : '미완료';
+
+                                    // Add item to data
+                                    data.push([label, status, '']);
+                                });
+
+                                // Add empty row after each card for better readability
+                                data.push(['', '', '']);
+                            });
+
+                            // Create worksheet
+                            const ws = XLSX.utils.aoa_to_sheet(data);
+
+                            // Set column widths
+                            const wscols = [
+                                {wch: 40}, // Item name
+                                {wch: 10}, // Status
+                                {wch: 20}  // Notes
+                            ];
+                            ws['!cols'] = wscols;
+
+                            // Add worksheet to workbook
+                            XLSX.utils.book_append_sheet(wb, ws, `${sectionIndex + 1}단계_${sectionTitle}`);
+                        });
+
+                        // Generate Excel file and trigger download
+                        XLSX.writeFile(wb, '방문요양센터_창업_체크리스트.xlsx');
+                    });
+
+                    // Download PDF functionality
+                    const pdfBtn = document.getElementById('pdfBtn');
+                    pdfBtn.addEventListener('click', function(e) {
+                        e.preventDefault();
+
+                        // Create a clone of the checklist container to modify for PDF
+                        const checklistContainer = document.querySelector('.checklist-container');
+                        const clone = checklistContainer.cloneNode(true);
+
+                        // Add completed status to checked items
+                        const cloneCheckboxes = clone.querySelectorAll('input[type="checkbox"]');
+                        cloneCheckboxes.forEach(checkbox => {
+                            const label = checkbox.nextElementSibling;
+                            if (checkbox.checked) {
+                                label.innerHTML += ' <span style="color: green;">(완료)</span>';
+                            } else {
+                                label.innerHTML += ' <span style="color: red;">(미완료)</span>';
+                            }
+                            // Hide the checkbox itself for the PDF
+                            checkbox.style.display = 'none';
+                        });
+
+                        // Create a temporary container for the PDF content
+                        const tempContainer = document.createElement('div');
+                        tempContainer.style.padding = '20px';
+                        tempContainer.style.position = 'absolute';
+                        tempContainer.style.top = '-9999px';
+                        tempContainer.style.left = '-9999px';
+                        tempContainer.style.width = '800px';
+                        tempContainer.style.backgroundColor = 'white';
+
+                        // Add title and date
+                        const title = document.createElement('h1');
+                        title.textContent = '방문요양센터 창업 체크리스트';
+                        title.style.textAlign = 'center';
+                        title.style.marginBottom = '20px';
+                        title.style.color = '#333';
+
+                        const date = document.createElement('p');
+                        date.textContent = `생성일: ${new Date().toLocaleDateString('ko-KR')}`;
+                        date.style.textAlign = 'right';
+                        date.style.marginBottom = '30px';
+                        date.style.color = '#666';
+
+                        tempContainer.appendChild(title);
+                        tempContainer.appendChild(date);
+                        tempContainer.appendChild(clone);
+                        document.body.appendChild(tempContainer);
+
+                        // Use html2canvas and jsPDF to create the PDF
+                        window.html2canvas(tempContainer, {
+                            scale: 1,
+                            useCORS: true,
+                            logging: false,
+                            backgroundColor: '#ffffff'
+                        }).then(canvas => {
+                            const imgData = canvas.toDataURL('image/png');
+                            const { jsPDF } = window.jspdf;
+                            const pdf = new jsPDF('p', 'mm', 'a4');
+
+                            const pdfWidth = pdf.internal.pageSize.getWidth();
+                            const pdfHeight = pdf.internal.pageSize.getHeight();
+                            const imgWidth = canvas.width;
+                            const imgHeight = canvas.height;
+                            const ratio = Math.min(pdfWidth / imgWidth, pdfHeight / imgHeight);
+                            const imgX = (pdfWidth - imgWidth * ratio) / 2;
+                            const imgY = 10;
+
+                            pdf.addImage(imgData, 'PNG', imgX, imgY, imgWidth * ratio, imgHeight * ratio);
+                            pdf.save('방문요양센터_창업_체크리스트.pdf');
+
+                            // Remove the temporary container
+                            document.body.removeChild(tempContainer);
+                        });
+                    });
+
+                    // Reset functionality
+                    const resetBtn = document.getElementById('resetBtn');
+                    resetBtn.addEventListener('click', function(e) {
+                        e.preventDefault();
+
+                        if (confirm('모든 체크리스트 항목을 초기화하시겠습니까?')) {
+                            // Clear all checkboxes
+                            checkboxes.forEach(checkbox => {
+                                checkbox.checked = false;
+                                localStorage.removeItem(`checklist-${checkbox.id}`);
+                            });
+                        }
+                    });
+                });
+                </script>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>방문요양센터 창업 가이드</h3>
+                    <p>시니어 개발자를 위한 경력 전환 로드맵</p>
+                    <p>© 2025 All Rights Reserved</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>바로가기</h3>
+                    <ul>
+                        <li><a href="index.html">홈</a></li>
+                        <li><a href="requirements.html">설립 요건</a></li>
+                        <li><a href="licensing.html">인허가 절차</a></li>
+                        <li><a href="facility.html">시설 및 운영</a></li>
+                        <li><a href="financial.html">재무 구조</a></li>
+                        <li><a href="it-strategy.html">IT 전략</a></li>
+                        <li><a href="roadmap.html">로드맵</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Checklist functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Save checklist state to localStorage
+            const checkboxes = document.querySelectorAll('.checklist input[type="checkbox"]');
+
+            // Load saved state
+            checkboxes.forEach(checkbox => {
+                const savedState = localStorage.getItem(checkbox.id);
+                if (savedState === 'true') {
+                    checkbox.checked = true;
+                }
+
+                // Add event listener to save state
+                checkbox.addEventListener('change', function() {
+                    localStorage.setItem(this.id, this.checked);
+                });
+            });
+
+            // Reset button functionality
+            document.getElementById('resetBtn').addEventListener('click', function(e) {
+                e.preventDefault();
+
+                if (confirm('체크리스트를 초기화하시겠습니까?')) {
+                    checkboxes.forEach(checkbox => {
+                        checkbox.checked = false;
+                        localStorage.removeItem(checkbox.id);
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

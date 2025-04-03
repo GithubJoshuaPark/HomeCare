@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시설 및 운영 요건 | 방문요양센터 창업 가이드</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .detail-page .content {
+            display: block;
+        }
+        .detail-section {
+            margin-bottom: 3rem;
+        }
+        .detail-section h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 0.5rem;
+        }
+        .back-link {
+            margin-bottom: 2rem;
+            display: inline-block;
+        }
+        .back-link i {
+            margin-right: 0.5rem;
+        }
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .service-card {
+            background-color: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+        }
+        .service-card h4 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #ddd;
+        }
+        .service-card ul {
+            padding-left: 1.5rem;
+        }
+        .service-card li {
+            margin-bottom: 0.5rem;
+        }
+        .facility-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: var(--border-radius);
+            margin: 1.5rem 0;
+            box-shadow: var(--box-shadow);
+        }
+        .image-caption {
+            text-align: center;
+            font-style: italic;
+            margin-top: 0.5rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-flex">
+                <div class="logo-area">
+                    <h1>방문요양센터 창업 준비</h1>
+                    <p class="subtitle">시니어 개발자를 위한 경력 전환 로드맵</p>
+                </div>
+                <button id="mobile-menu-button" class="mobile-menu-btn" aria-label="메뉴 열기">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html#intro" class="nav-link">소개</a></li>
+                    <li><a href="index.html#requirements" class="nav-link">설립 요건</a></li>
+                    <li><a href="index.html#licensing" class="nav-link">인허가 절차</a></li>
+                    <li><a href="index.html#facility" class="nav-link">시설 및 운영</a></li>
+                    <li><a href="index.html#financial" class="nav-link">재정 분석</a></li>
+                    <li class="mobile-only"><a href="index.html#it-strategy" class="nav-link">IT 활용 전략</a></li>
+                    <li class="mobile-only"><a href="index.html#roadmap" class="nav-link">경력 전환 로드맵</a></li>
+                    <li class="mobile-only"><a href="index.html#checklist" class="nav-link">체크리스트</a></li>
+                </ul>
+                <div class="theme-toggle-container">
+                    <button id="theme-toggle" class="theme-toggle-btn" aria-label="다크 모드 전환">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section detail-page">
+            <div class="container">
+                <a href="index.html#facility" class="back-link"><i class="fas fa-arrow-left"></i> 메인으로 돌아가기</a>
+                <h2>시설 및 운영 요건</h2>
+                
+                <div class="content">
+                    <p>방문요양센터는 재가장기요양기관으로서 적절한 시설을 갖추고 효율적인 운영 체계를 구축해야 합니다. 여기서는 방문요양센터의 시설 구성과 서비스 제공 범위에 대해 상세히 안내합니다.</p>
+                    
+                    <div class="detail-section">
+                        <h3>시설 구성</h3>
+                        <p>방문요양센터는 주로 사무실 공간으로 구성되며, 다음과 같은 공간과 설비가 필요합니다.</p>
+                        
+                        <h4>사무실 공간 구성</h4>
+                        <p>최소 16.5㎡(5평) 이상의 전용 공간이 필요하며, 다음과 같은 용도별 공간으로 구성하는 것이 좋습니다:</p>
+                        <ul>
+                            <li><strong>행정 업무 공간</strong>: 시설장 및 사회복지사가 행정 업무를 처리하는 공간</li>
+                            <li><strong>상담 공간</strong>: 수급자 및 보호자와의 상담을 위한 공간</li>
+                            <li><strong>서류 보관 공간</strong>: 각종 서류를 안전하게 보관하는 공간</li>
+                            <li><strong>직원 교육 및 회의 공간</strong>: 요양보호사 교육 및 직원 회의를 위한 공간</li>
+                        </ul>
+                        
+                        <div class="image-container">
+                            <img src="https://via.placeholder.com/800x400?text=방문요양센터+사무실+레이아웃" alt="방문요양센터 사무실 레이아웃 예시" class="facility-image">
+                            <p class="image-caption">방문요양센터 사무실 레이아웃 예시</p>
+                        </div>
+                        
+                        <h4>필수 설비</h4>
+                        <p>방문요양센터 운영에 필요한 필수 설비는 다음과 같습니다:</p>
+                        <ul>
+                            <li><strong>컴퓨터 및 인터넷 환경</strong>
+                                <ul>
+                                    <li>행정 업무용 컴퓨터 (최소 1대 이상)</li>
+                                    <li>안정적인 인터넷 연결</li>
+                                    <li>장기요양 관련 소프트웨어</li>
+                                </ul>
+                            </li>
+                            <li><strong>통신 장비</strong>
+                                <ul>
+                                    <li>유선전화 (대표번호)</li>
+                                    <li>팩스</li>
+                                    <li>업무용 휴대전화</li>
+                                </ul>
+                            </li>
+                            <li><strong>사무 기기</strong>
+                                <ul>
+                                    <li>복합기 (프린터, 스캐너, 복사기)</li>
+                                    <li>문서 파쇄기</li>
+                                </ul>
+                            </li>
+                            <li><strong>보관 설비</strong>
+                                <ul>
+                                    <li>잠금장치가 있는 서류 보관함</li>
+                                    <li>개인정보 보호를 위한 보안 장치</li>
+                                </ul>
+                            </li>
+                            <li><strong>사무용 가구</strong>
+                                <ul>
+                                    <li>책상 및 의자</li>
+                                    <li>상담용 테이블 및 의자</li>
+                                    <li>수납장</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        
+                        <p>IT 개발자 출신이라면 디지털 시스템을 활용하여 효율적인 사무실 환경을 구축할 수 있습니다. 클라우드 기반 문서 관리 시스템, 디지털 서명 솔루션, 업무 자동화 도구 등을 도입하여 업무 효율성을 높일 수 있습니다.</p>
+                    </div>
+                    
+                    <div class="detail-section">
+                        <h3>서비스 제공 범위</h3>
+                        <p>방문요양센터에서 제공하는 서비스는 크게 신체활동 지원, 가사활동 지원, 정서지원으로 구분됩니다. 각 서비스의 세부 내용은 다음과 같습니다.</p>
+                        
+                        <div class="service-grid">
+                            <div class="service-card">
+                                <h4>신체활동 지원</h4>
+                                <ul>
+                                    <li><strong>세면도움</strong>: 얼굴, 목, 손 씻기 등</li>
+                                    <li><strong>구강관리</strong>: 양치질, 틀니 손질 등</li>
+                                    <li><strong>몸단장</strong>: 머리 빗기, 면도, 손/발톱 정리 등</li>
+                                    <li><strong>옷 갈아입히기</strong>: 의복 준비 및 착탈의 도움</li>
+                                    <li><strong>목욕도움</strong>: 입욕 준비, 입욕 시 이동 보조 등</li>
+                                    <li><strong>식사도움</strong>: 식사 준비, 식사 보조, 구토물 정리 등</li>
+                                    <li><strong>체위변경</strong>: 체위 변경, 일어나 앉기 도움 등</li>
+                                    <li><strong>이동도움</strong>: 실내이동, 보행 도움 등</li>
+                                    <li><strong>화장실 이용 도움</strong>: 배뇨/배변 도움, 지원, 기저귀 교환 등</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="service-card">
+                                <h4>가사활동 지원</h4>
+                                <ul>
+                                    <li><strong>취사</strong>: 식재료 준비, 조리, 정리 등</li>
+                                    <li><strong>생활필수품 구매</strong>: 일상생활에 필요한 물품 구매</li>
+                                    <li><strong>청소</strong>: 수급자 방, 주방, 화장실 등 청소</li>
+                                    <li><strong>세탁</strong>: 의복, 침구 등의 세탁 및 관리</li>
+                                </ul>
+                                <p><strong>주의사항:</strong> 가사활동 지원은 수급자의 일상생활에 필요한 활동으로 제한되며, 수급자 외 가족을 위한 활동은 포함되지 않습니다.</p>
+                            </div>
+                            
+                            <div class="service-card">
+                                <h4>정서지원</h4>
+                                <ul>
+                                    <li><strong>말벗</strong>: 대화, 음악 감상, 책 읽어주기 등</li>
+                                    <li><strong>격려 및 위로</strong>: 정서적 지지와 격려</li>
+                                    <li><strong>생활상담</strong>: 일상생활에 관한 상담</li>
+                                    <li><strong>의사소통 도움</strong>: 의사소통이 어려운 수급자 지원</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="service-card">
+                                <h4>기타 서비스</h4>
+                                <ul>
+                                    <li><strong>외출동행</strong>: 병원 방문 등 외출 시 동행 및 지원</li>
+                                    <li><strong>일상생활 상담</strong>: 일상생활에 필요한 정보 제공 및 상담</li>
+                                    <li><strong>복지자원 연계</strong>: 지역사회 복지자원 연계 및 정보 제공</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <p>IT 경력을 활용하여 서비스 제공 과정을 디지털화하고, 수급자별 맞춤형 서비스 계획을 수립할 수 있는 시스템을 구축하면 서비스 품질을 높일 수 있습니다.</p>
+                    </div>
+                    
+                    <div class="detail-section">
+                        <h3>운영 관리</h3>
+                        <p>방문요양센터의 효율적인 운영을 위해 다음과 같은 관리 체계를 구축해야 합니다.</p>
+                        
+                        <h4>인력 관리</h4>
+                        <ul>
+                            <li><strong>인력 채용 및 교육</strong>: 요양보호사 채용, 직무 교육, 보수 교육 등</li>
+                            <li><strong>인력 배치</strong>: 수급자 특성에 맞는 요양보호사 배치</li>
+                            <li><strong>근무 일정 관리</strong>: 요양보호사 근무 일정 수립 및 관리</li>
+                            <li><strong>급여 및 복리후생</strong>: 급여 지급, 4대 보험 관리, 복리후생 제도 운영</li>
+                        </ul>
+                        
+                        <h4>서비스 품질 관리</h4>
+                        <ul>
+                            <li><strong>서비스 계획 수립</strong>: 수급자별 맞춤형 서비스 계획 수립</li>
+                            <li><strong>서비스 모니터링</strong>: 서비스 제공 과정 모니터링 및 평가</li>
+                            <li><strong>피드백 수집</strong>: 수급자 및 보호자 만족도 조사, 피드백 수집</li>
+                            <li><strong>서비스 개선</strong>: 피드백을 바탕으로 한 서비스 개선</li>
+                        </ul>
+                        
+                        <h4>행정 및 재무 관리</h4>
+                        <ul>
+                            <li><strong>문서 관리</strong>: 각종 서류 작성, 보관, 관리</li>
+                            <li><strong>급여비용 청구</strong>: 장기요양급여 비용 청구 및 관리</li>
+                            <li><strong>회계 관리</strong>: 수입/지출 관리, 세무 관리</li>
+                            <li><strong>보고 및 평가 대응</strong>: 정기 보고, 평가 준비 및 대응</li>
+                        </ul>
+                        
+                        <p>IT 개발자 출신이라면 이러한 운영 관리 과정을 자동화하고 효율화할 수 있는 시스템을 구축하여 운영 부담을 줄이고 서비스 품질을 높일 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>방문요양센터 창업 가이드</h3>
+                    <p>시니어 개발자를 위한 경력 전환 로드맵</p>
+                    <p>© 2025 All Rights Reserved</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>바로가기</h3>
+                    <ul>
+                        <li><a href="index.html#intro">소개</a></li>
+                        <li><a href="index.html#requirements">설립 요건</a></li>
+                        <li><a href="index.html#licensing">인허가 절차</a></li>
+                        <li><a href="index.html#facility">시설 및 운영</a></li>
+                        <li><a href="index.html#financial">재정 분석</a></li>
+                        <li><a href="index.html#it-strategy">IT 활용 전략</a></li>
+                        <li><a href="index.html#roadmap">경력 전환 로드맵</a></li>
+                        <li><a href="index.html#checklist">체크리스트</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>문의하기</h3>
+                    <p><i class="fas fa-envelope"></i> 이메일: info@carecenters.kr</p>
+                    <p><i class="fas fa-phone"></i> 전화: 02-123-4567</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
