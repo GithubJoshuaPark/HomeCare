@@ -196,6 +196,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: var(--spacing-md);
+    padding: 0 1rem;
 }
 
 .logo-area {
@@ -203,7 +204,7 @@ header {
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .logo-image-container {
@@ -661,6 +662,8 @@ footer {
     
     .logo-area {
         gap: 0.8rem;
+        justify-content: flex-start;
+        padding-left: 0.5rem;
     }
     
     .logo-image-container {
