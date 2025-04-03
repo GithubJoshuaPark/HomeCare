@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>방문요양센터 사무실 레이아웃 | 방문요양센터 창업 가이드</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="seniorCareLabf.png" type="image/png">
+    <link rel="apple-touch-icon" href="seniorCareLabf.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="방문요양센터 사무실 레이아웃 | 방문요양센터 창업 가이드">
+    <meta property="og:description" content="5평 규모의 방문요양센터 사무실 레이아웃 아이디어 및 고려사항">
+    <meta property="og:image" content="seniorCareLabf.png">
+    <meta property="og:url" content="https://homecare-b12c6.web.app/center-layout.html">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .detail-page .content {
+            display: block;
+            padding: 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .layout-section {
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background-color: var(--card-bg-color);
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+        }
+
+        .layout-title {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .layout-image-container {
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .layout-image {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .layout-image:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        .layout-caption {
+            margin-top: 1rem;
+            font-style: italic;
+            color: var(--text-color);
+            text-align: center;
+        }
+
+        .layout-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .layout-list li {
+            margin-bottom: 0.8rem;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+
+        .layout-list li::before {
+            content: "•";
+            color: var(--accent-color);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .reference-links {
+            margin-top: 2rem;
+            padding: 1rem;
+            background-color: rgba(0,0,0,0.03);
+            border-radius: var(--border-radius);
+        }
+
+        .reference-links a {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .reference-links a:hover {
+            color: var(--accent-color);
+            text-decoration: underline;
+        }
+
+        .back-to-facility {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 0.8rem 1.5rem;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: var(--border-radius);
+            transition: background-color 0.3s ease;
+        }
+
+        .back-to-facility:hover {
+            background-color: var(--secondary-color);
+        }
+
+        @media (max-width: 768px) {
+            .layout-section {
+                padding: 1.5rem;
+            }
+
+            .layout-placeholder {
+                height: 300px;
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="detail-page">
+        <header>
+            <div class="container">
+                <div class="header-flex">
+                    <div class="logo-area">
+                        <h1>방문요양센터 창업 준비</h1>
+                        <p class="subtitle">시니어 개발자를 위한 경력 전환 로드맵</p>
+                    </div>
+                    <button id="mobile-menu-button" class="mobile-menu-btn" aria-label="메뉴 열기">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="index.html#intro" class="nav-link">소개</a></li>
+                        <li><a href="index.html#requirements" class="nav-link">설립 요건</a></li>
+                        <li><a href="index.html#licensing" class="nav-link">인허가 절차</a></li>
+                        <li><a href="index.html#facility" class="nav-link">시설 및 운영</a></li>
+                        <li><a href="index.html#financial" class="nav-link">재정 분석</a></li>
+                        <li class="mobile-only"><a href="index.html#it-strategy" class="nav-link">IT 활용 전략</a></li>
+                        <li class="mobile-only"><a href="index.html#roadmap" class="nav-link">경력 전환 로드맵</a></li>
+                        <li class="mobile-only"><a href="index.html#checklist" class="nav-link">체크리스트</a></li>
+                    </ul>
+                    <div class="theme-toggle-container">
+                        <button id="theme-toggle" class="theme-toggle-btn" aria-label="다크 모드 전환">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="content">
+            <div class="layout-section">
+                <h1 class="layout-title">5평 방문요양센터 사무실 레이아웃</h1>
+
+                <p>5평 규모의 방문요양센터 사무실은 공간 효율성을 극대화하고 기능적인 작업 환경을 조성하는 데 중점을 두어야 합니다. 다음은 몇 가지 고려해야 할 요소와 레이아웃 아이디어입니다.</p>
+                <br>
+                <h2>고려 사항</h2>
+                <ul class="layout-list">
+                    <li><strong>필수 공간:</strong> 리셉션 공간, 상담 공간, 업무 공간, 서류 보관 공간</li>
+                    <li><strong>공간 활용:</strong> 벽면 활용, 다기능 가구, 모듈형 시스템</li>
+                    <li><strong>동선:</strong> 효율적인 이동 경로, 개방감 확보</li>
+                    <li><strong>분위기:</strong> 밝고 편안한 분위기, 환자와 직원을 위한 쾌적함</li>
+                </ul>
+            </div>
+
+            <div class="layout-section">
+                <h2 class="layout-title">레이아웃 아이디어</h2>
+
+                <h3>벽면 활용형</h3>
+                <br>
+                <ul class="layout-list">
+                    <li>리셉션 데스크와 상담 공간을 벽에 붙여 배치하여 중앙 공간 확보</li>
+                    <li>벽걸이 선반 또는 캐비닛을 설치하여 서류 및 물품 보관</li>
+                </ul>
+
+                <div class="layout-image-container">
+                    <img src="https://blog.kakaocdn.net/dn/cwJLvT/btsKADlRpIN/gJXBIs9clXmQuuGzo3Vnv0/img.png" alt="5평 벽면 활용형 사무실 레이아웃" class="layout-image">
+                    <p class="layout-caption">벽면을 최대한 활용하여 중앙 공간을 확보한 레이아웃</p>
+                </div>
+
+                <h3>중앙 집중형</h3>
+                <br>
+                <ul class="layout-list">
+                    <li>중앙에 업무용 테이블을 배치하고 주변에 상담 공간 및 리셉션 공간 배치</li>
+                    <li>파티션 또는 칸막이를 사용하여 공간 분리</li>
+                </ul>
+
+                <div class="layout-image-container">
+                    <img src="https://mblogthumb-phinf.pstatic.net/MjAyMzA5MDFfNTgg/MDAxNjkzNTQxNDM0ODkw.cK7SusmjjY7KAXzljDIZdr5F1nluSea--cN2NxFBbUIg.yIrntCEL3EljiOHoO23Us4PoxDkxCVL4l7S0r9i7krYg.JPEG.smspkkb/1.jpg?type=w400" alt="5평 중앙 집중형 사무실 레이아웃" class="layout-image">
+                    <p class="layout-caption">중앙에 업무 공간을 배치하고 주변에 기능별 공간을 배치한 레이아웃</p>
+                </div>
+
+                <h3>모듈형 가구 활용형</h3>
+                <br>
+                <ul class="layout-list">
+                    <li>필요에 따라 변형 가능한 모듈형 가구를 사용하여 공간 활용도 극대화</li>
+                    <li>접이식 테이블 또는 의자를 사용하여 공간 절약</li>
+                </ul>
+
+                <div class="layout-image-container">
+                    <img src="https://cdn.ggumim.co.kr/cache/star/600/20211214143235aPs6rmBIaD.jpeg" alt="5평 모듈형 가구 활용형 사무실 레이아웃" class="layout-image">
+                    <p class="layout-caption">변형 가능한 모듈형 가구를 활용한 유연한 레이아웃</p>
+                </div>
+            </div>
+
+            <div class="layout-section">
+                <h2 class="layout-title">추가 팁</h2>
+                <ul class="layout-list">
+                    <li>밝은 색상과 조명을 사용하여 공간을 넓어 보이게 합니다.</li>
+                    <li>식물이나 그림을 배치하여 편안한 분위기를 조성합니다.</li>
+                    <li>수납공간을 충분히 확보하여 사무실을 깔끔하게 유지합니다.</li>
+                </ul>
+
+                <div class="reference-links">
+                    <h3>더 많은 아이디어를 얻으려면 다음 웹사이트를 참조하세요.</h3>
+                    <a href="https://www.pinterest.com/pin/5--990158668057477057/" target="_blank">Pinterest: 사무실 레이아웃 아이디어</a>
+                    <a href="https://www.roomsketcher.com/office-design/office-layout/" target="_blank">RoomSketcher: 사무실 레이아웃 디자인</a>
+                </div>
+
+                <a href="facility.html" class="back-to-facility">
+                    <i class="fas fa-arrow-left"></i> 시설 및 운영 요건으로 돌아가기
+                </a>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3>방문요양센터 창업 가이드</h3>
+                        <p>시니어 개발자를 위한 경력 전환 로드맵</p>
+                        <p>&copy; 2025 All Rights Reserved</p>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3>바로가기</h3>
+                        <ul>
+                            <li><a href="index.html#intro">소개</a></li>
+                            <li><a href="index.html#requirements">설립 요건</a></li>
+                            <li><a href="index.html#licensing">인허가 절차</a></li>
+                            <li><a href="index.html#facility">시설 및 운영</a></li>
+                            <li><a href="index.html#financial">재정 분석</a></li>
+                            <li><a href="index.html#it-strategy">IT 활용 전략</a></li>
+                            <li><a href="index.html#roadmap">경력 전환 로드맵</a></li>
+                            <li><a href="index.html#checklist">체크리스트</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3>문의하기</h3>
+                        <p><i class="fas fa-envelope"></i> 이메일: soromiso@gmail.com</p>
+                    <p><i class="fas fa-globe"></i> <a href="https://my-portfolio-six-ecru-21.vercel.app/" target="_blank">개발자 포트폴리오</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

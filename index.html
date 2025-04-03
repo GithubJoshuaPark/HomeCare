@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>방문요양센터 창업 준비 | 시니어 개발자를 위한 경력 전환 로드맵</title>
-    
+    <title>방문요양센터 창업 준비 | 시니어 개발자 경력 전환 로드맵</title>
+
     <!-- Favicon -->
     <link rel="icon" href="seniorCareLabf.png" type="image/png">
     <link rel="apple-touch-icon" href="seniorCareLabf.png">
-    
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+
     <!-- Open Graph / Social Media Meta Tags -->
-    <meta property="og:title" content="방문요양센터 창업 준비 | 시니어 개발자를 위한 경력 전환 로드맵">
+    <meta property="og:title" content="방문요양센터 창업 준비 | 시니어 개발자 경력 전환 로드맵">
     <meta property="og:description" content="시니어 개발자를 위한 방문요양센터 창업 가이드 및 경력 전환 로드맵">
     <meta property="og:image" content="seniorCareLabf.png">
     <meta property="og:url" content="https://homecare-b12c6.web.app/">
     <meta property="og:type" content="website">
-    
+
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -24,42 +29,67 @@
         <div class="container">
             <div class="header-flex">
                 <div class="logo-area">
-                    <h1>방문요양센터 창업 준비</h1>
-                    <p class="subtitle">시니어 개발자를 위한 경력 전환 로드맵</p>
+                    <div class="logo-image-container">
+                        <img src="jinwoo_ghibli.jpeg" alt="방문요양센터 로고" class="logo-image">
+                    </div>
+                    <div class="logo-text">
+                        <h1>따뜻한 손길 방문요양센터</h1>
+                        <p class="subtitle">시니어 개발자 경력 전환 로드맵</p>
+                    </div>
                 </div>
                 <button id="mobile-menu-button" class="mobile-menu-btn" aria-label="메뉴 열기">
                     <i class="fas fa-bars"></i>
                 </button>
             </div>
             <nav>
-                <ul class="nav-links">
-                    <li><a href="#intro" class="nav-link">소개</a></li>
-                    <li><a href="#requirements" class="nav-link">설립 요건</a></li>
-                    <li><a href="#licensing" class="nav-link">인허가 절차</a></li>
-                    <li><a href="#facility" class="nav-link">시설 및 운영</a></li>
-                    <li><a href="#financial" class="nav-link">재정 분석</a></li>
-                    <li class="mobile-only"><a href="#it-strategy" class="nav-link">IT 활용 전략</a></li>
-                    <li class="mobile-only"><a href="#roadmap" class="nav-link">경력 전환 로드맵</a></li>
-                    <li class="mobile-only"><a href="#checklist" class="nav-link">체크리스트</a></li>
-                </ul>
-                <div class="theme-toggle-container">
-                    <button id="theme-toggle" class="theme-toggle-btn" aria-label="다크 모드 전환">
-                        <i class="fas fa-moon"></i>
-                    </button>
+                <div class="nav-container">
+                    <div class="nav-wrapper">
+                        <ul class="nav-links">
+                            <li><a href="#intro" class="nav-link">소개</a></li>
+                            <li><a href="#requirements" class="nav-link">설립 요건</a></li>
+                            <li><a href="#licensing" class="nav-link">인허가 절차</a></li>
+                            <li><a href="#facility" class="nav-link">시설 및 운영</a></li>
+                            <li><a href="#financial" class="nav-link">재정 분석</a></li>
+                            <li class="mobile-only"><a href="#it-strategy" class="nav-link">IT 활용 전략</a></li>
+                            <li class="mobile-only"><a href="#roadmap" class="nav-link">경력 전환 로드맵</a></li>
+                            <li class="mobile-only"><a href="#checklist" class="nav-link">체크리스트</a></li>
+                        </ul>
+                        <div class="theme-toggle-container">
+                            <button id="theme-toggle" class="theme-toggle-btn" aria-label="다크 모드 전환">
+                                <i class="fas fa-moon"></i>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </nav>
         </div>
     </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-container">
+            <img src="index_heiro_image.png" alt="방문요양센터 창업 준비" class="hero-image">
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <h2>방문요양센터 창업</h2>
+                    <p>IT 개발자에서 사회복지 전문가로의 성공적인 전환 프로젝트</p>
+                    <a href="#intro" class="hero-button">자세히 알아보기</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Main Content -->
     <main class="container mx-auto px-4 py-8">
         <!-- Intro Section -->
         <section id="intro" class="py-12">
             <br>
-            <div class="max-w-3xl mx-auto text-center mb-10">
-                <p class="text-lg mb-4">본 웹사이트는 53세 시니어 개발자가 IT 분야에서 사회복지 분야로 경력을 전환하여 방문요양센터를 창업하기 위한 종합적인 정보를 제공합니다.</p>
-                <p class="text-lg mb-4">요양보호사 자격증을 보유하고 있으며 사회복지사 2급 자격증을 취득 예정인 상황에서, 사회복지 현장 경험이 없는 IT 개발자가 성공적으로 방문요양센터를 설립하고 운영하기 위한 단계별 준비를 제시합니다.</p>
-                <p class="text-lg mb-4">IT 경력을 활용한 차별화 전략과 함께 방문요양센터 창업에 필요한 모든 정보를 체계적으로 정리했습니다.</p>
+            <div class="intro-highlight mx-auto text-center mb-10">
+                <div class="intro-card">
+                    <p class="intro-text"><strong>본 웹사이트는 53세 시니어 개발자가 IT 분야에서 사회복지 분야로 경력을 전환하여 방문요양센터를 창업하기 위한 종합적인 정보를 정리합니다.</strong></p>
+                    <p class="intro-text highlight-box">요양보호사 자격증을 보유하고 있으며 <span class="accent-text">사회복지사 2급 자격증을 취득 예정(2025년 5월)</span>인 상황에서, 사회복지 현장 경험이 없는 IT 개발자가 성공적으로 방문요양센터를 설립하고 운영하기 위한 단계별 준비를 제시합니다.</p>
+                    <p class="intro-text"><em>IT 경력을 활용한 차별화 전략과 함께 방문요양센터 창업에 필요한 모든 정보를 체계적으로 정리했습니다.</em></p>
+                </div>
             </div>
             <br>
         </section>
@@ -394,7 +424,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>방문요양센터 창업 준비</h3>
-                    <p>시니어 개발자를 위한 경력 전환 로드맵</p>
+                    <p>시니어 개발자 경력 전환 로드맵</p>
                     <p>© 2025 All Rights Reserved</p>
                 </div>
 
@@ -415,29 +445,13 @@
                 <div class="footer-section">
                     <h3>문의하기</h3>
                     <p><i class="fas fa-envelope"></i> 이메일: soromiso@gmail.com</p>
+                    <p><i class="fas fa-globe"></i> <a href="https://my-portfolio-six-ecru-21.vercel.app/" target="_blank">개발자 포트폴리오</a></p>
                 </div>
             </div>
         </div>
     </footer>
 
     <script>
-        // Mobile menu toggle
-        document.getElementById('mobile-menu-button').addEventListener('click', function() {
-            const nav = document.querySelector('nav');
-            nav.classList.toggle('active');
-
-            // Change icon based on menu state
-            const icon = this.querySelector('i');
-            if (nav.classList.contains('active')) {
-                icon.classList.remove('fa-bars');
-                icon.classList.add('fa-times');
-                this.setAttribute('aria-label', '메뉴 닫기');
-            } else {
-                icon.classList.remove('fa-times');
-                icon.classList.add('fa-bars');
-                this.setAttribute('aria-label', '메뉴 열기');
-            }
-        });
 
         // Theme toggle functionality is now handled in script.js
 
