@@ -11,13 +11,13 @@
     --border-radius: 8px;
     --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     --transition: all 0.3s ease;
-    
+
     /* Fonts */
     --font-family: 'Noto Sans KR', sans-serif;
     --font-weight-normal: 400;
     --font-weight-medium: 500;
     --font-weight-bold: 700;
-    
+
     /* Font sizes */
     --font-size-base: 18px;
     --font-size-small: 16px;
@@ -25,7 +25,7 @@
     --font-size-large: 24px;
     --font-size-xl: 32px;
     --font-size-xxl: 40px;
-    
+
     /* Spacing */
     --spacing-xs: 0.5rem;
     --spacing-sm: 1rem;
@@ -643,43 +643,43 @@ footer {
         --font-size-xl: 22px;
         --font-size-xxl: 28px;
     }
-    
+
     .container {
         width: 95%;
         padding: 0 10px;
     }
-    
+
     header h1 {
         font-size: var(--font-size-large);
         line-height: 1.3;
         margin-bottom: 0.2rem;
     }
-    
+
     header .subtitle {
         font-size: var(--font-size-small);
         line-height: 1.3;
     }
-    
+
     .logo-area {
         gap: 0.8rem;
         justify-content: flex-start;
         padding-left: 0.5rem;
     }
-    
+
     .logo-image-container {
         width: 50px;
         height: 50px;
     }
-    
+
     .mobile-menu-btn {
         display: block;
     }
-    
+
     nav {
         width: 100%;
         display: none;
     }
-    
+
     nav.active {
         display: block;
         position: absolute;
@@ -691,7 +691,7 @@ footer {
         box-shadow: var(--box-shadow);
         padding: var(--spacing-sm) 0;
     }
-    
+
     .nav-container {
         width: 100%;
         flex-direction: column;
@@ -699,39 +699,39 @@ footer {
         border-radius: 0;
         padding: 0.5rem 0;
     }
-    
+
     .nav-wrapper {
         width: 100%;
         flex-direction: column;
         align-items: center;
     }
-    
+
     .theme-toggle-container {
         margin: 15px auto;
         display: flex;
         justify-content: center;
     }
-    
+
     nav ul {
         flex-direction: column;
         align-items: center;
         width: 100%;
         padding: var(--spacing-sm) 0;
     }
-    
+
     nav li {
         width: 100%;
         text-align: center;
         margin-bottom: var(--spacing-xs);
     }
-    
+
     nav a {
         display: block;
         padding: 0.5rem;
         width: 100%;
         font-size: var(--font-size-small);
     }
-    
+
     .mobile-menu-btn {
         display: block;
         background: transparent;
@@ -743,48 +743,48 @@ footer {
         right: 20px;
         top: 20px;
     }
-    
+
     .content {
         grid-template-columns: 1fr;
     }
-    
+
     /* Hero section mobile styles */
     .hero-container {
         height: 400px;
     }
-    
+
     .hero-content h2 {
         font-size: var(--font-size-xl);
         margin-bottom: var(--spacing-sm);
     }
-    
+
     .hero-content p {
         font-size: var(--font-size-medium);
         margin-bottom: var(--spacing-md);
     }
-    
+
     .hero-button {
         padding: var(--spacing-xs) var(--spacing-md);
         font-size: var(--font-size-small);
     }
-    
+
     /* Roadmap mobile styles */
     .roadmap-container {
         padding: 1rem 0;
         max-width: 100%;
     }
-    
+
     .roadmap-step {
         flex-direction: row;
         margin-bottom: 2rem;
         align-items: flex-start;
     }
-    
+
     .roadmap-step::after {
         left: 25px;
         bottom: -40px;
     }
-    
+
     .step-number {
         width: 40px;
         height: 40px;
@@ -792,54 +792,54 @@ footer {
         margin-right: 1rem;
         flex-shrink: 0;
     }
-    
+
     .roadmap-card {
         width: calc(100% - 60px);
         margin-left: 0;
     }
-    
+
     .card-header {
         padding: 0.8rem 1rem;
         flex-wrap: wrap;
     }
-    
+
     .card-header h3 {
         font-size: 1.1rem;
         margin-right: 0.5rem;
     }
-    
+
     .card-header i {
         font-size: 1.2rem;
     }
-    
+
     .card-content {
         padding: 1rem;
     }
-    
+
     .card-content ul {
         padding-left: 1.2rem;
     }
-    
+
     .card-content li {
         font-size: 0.95rem;
         line-height: 1.5;
     }
-    
+
     .footer-content {
         grid-template-columns: 1fr;
         text-align: center;
     }
-    
+
     /* Hide footer navigation on mobile */
     .footer-section:nth-child(2) {
         display: none;
     }
-    
+
     /* Show mobile-only elements in the navigation */
     .mobile-only {
         display: block;
     }
-    
+
     /* Mobile theme toggle button styling */
     .mobile-theme-toggle {
         margin-top: var(--spacing-md);
@@ -849,7 +849,7 @@ footer {
         cursor: pointer;
         transition: all 0.3s ease;
     }
-    
+
     .mobile-theme-toggle button {
         width: 100%;
         background: none;
@@ -860,7 +860,7 @@ footer {
         cursor: pointer;
         padding: var(--spacing-xs) var(--spacing-sm);
     }
-    
+
     .mobile-theme-toggle:hover {
         background-color: rgba(255, 255, 255, 0.2);
     }
@@ -875,28 +875,28 @@ footer {
         --font-size-xl: 24px;
         --font-size-xxl: 28px;
     }
-    
+
     .section {
         padding: var(--spacing-lg) 0;
     }
-    
+
     .card {
         padding: var(--spacing-md);
     }
-    
+
     .section h2 {
         margin-bottom: var(--spacing-lg);
     }
-    
+
     .checklist-container {
         margin: var(--spacing-sm) 0;
     }
-    
+
     .download-section {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .btn {
         width: 100%;
         text-align: center;
@@ -928,26 +928,26 @@ footer {
     header, footer, .more-link, .btn {
         display: none;
     }
-    
+
     body {
         font-size: 12pt;
         line-height: 1.5;
         color: #000;
         background: #fff;
     }
-    
+
     .card {
         break-inside: avoid;
         page-break-inside: avoid;
         box-shadow: none;
         border: 1px solid #ddd;
     }
-    
+
     a {
         color: #000;
         text-decoration: none;
     }
-    
+
     .section {
         padding: 1rem 0;
     }
